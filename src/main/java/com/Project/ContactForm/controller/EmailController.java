@@ -7,7 +7,7 @@ import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.DocumentReference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/email")
 public class EmailController {
